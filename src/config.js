@@ -10,7 +10,7 @@ module.exports = {
 		},
 	},
 	social: {
-		linkedin: 'husnain-syed-668b42212',
+		linkedin: 'husnain-syed',
 		// twitter: "arif_swozon",
 		facebook: 'husnain.syed.58726',
 		// dribbble: "",
