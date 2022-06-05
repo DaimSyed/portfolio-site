@@ -4,19 +4,19 @@ import { getThemeValue } from '../../helpers/utils';
 const initialState = getThemeValue();
 
 export const themeSlice = createSlice({
-    name: 'theme',
-    initialState: initialState,
-    reducers: {
-        setTheme: (state, action) => {
-            state = action.payload;
+  name: 'theme',
+  initialState: initialState,
+  reducers: {
+    setTheme: (state, action) => {
+      state = action.payload;
 
-            document.querySelector('html').setAttribute('data-theme', state);
-            localStorage.setItem('ezprofileTheme', state);
+      document.querySelector('html').setAttribute('data-theme', state);
+      localStorage.setItem('ezprofileTheme', state);
 
-            return state;
-        }
-    }
-})
+      return state;
+    },
+  },
+});
 
 export const { setTheme } = themeSlice.actions;
 

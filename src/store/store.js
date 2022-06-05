@@ -5,12 +5,12 @@ import repoSlice from './slices/repoSlice';
 import themeSlice from './slices/themeSlice';
 
 const rootReducer = combineReducers({
-    profile: profileSlice,
-    theme: themeSlice,
-    loading: loadingSlice,
-    repo: repoSlice,
-})
+  profile: profileSlice,
+  theme: themeSlice,
+  loading: loadingSlice,
+  repo: repoSlice,
+});
 
 export const store = configureStore({
-  reducer: rootReducer
-})
+  reducer: rootReducer,
+});

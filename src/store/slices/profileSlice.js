@@ -3,16 +3,16 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = null;
 
 export const profileSlice = createSlice({
-    name: 'profile',
-    initialState: initialState,
-    reducers: {
-        setProfile: (state, action) => {
-            state = action.payload;
+  name: 'profile',
+  initialState: initialState,
+  reducers: {
+    setProfile: (state, action) => {
+      state = action.payload;
 
-            return state;
-        }
-    }
-})
+      return state;
+    },
+  },
+});
 
 export const { setProfile } = profileSlice.actions;
 
