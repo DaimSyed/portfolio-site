@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "short_name": "ezProfile",
+=======
+  "short_name": "GitProfile",
+>>>>>>> 14653a4 (files added)
   "name": "Personal Portfolio",
   "icons": [
     {
